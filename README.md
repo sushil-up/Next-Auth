@@ -8,11 +8,12 @@ NextAuth.js is a powerful, open-source authentication library designed for seaml
 For more detailed information and documentation, visit the [NextAuth.js website](https://next-auth.js.org/).
 
 ## Build with
-* [Next js](https://nextjs.org/) - Framework Next js.
-* [Next Auth](https://next-auth.js.org/) - Authentication Library.
-* [MUI](https://mui.com/) - UI Library.
+* [Next js](https://nextjs.org/) - A React framework for server-side rendering and static site generation..
+* [NextAuth.js](https://next-auth.js.org/) - An authentication library for Next.js.
+* [MUI](https://mui.com/) - A comprehensive UI library.
+Installation
 
-## Inatallation of making new Project 
+## To set up this project, follow these steps:
 Install of framework and library
 For Next js 
 ```bash 
