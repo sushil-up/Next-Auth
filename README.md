@@ -5,7 +5,7 @@ This project showcases how to implement authentication using NextAuth with vario
 
 ## About NextAuth js
 NextAuth.js is a powerful, open-source authentication library designed for seamless integration with Next.js and Serverless frameworks. It offers easy-to-implement authentication solutions for full-stack applications and aims to expand support for additional frameworks in the future.
-For more detailed information and documentation, visit the  ([NextAuth.js website](https://next-auth.js.org/)).
+For more detailed information and documentation, visit the [NextAuth.js website](https://next-auth.js.org/).
 
 ## Build with
 * [Next js](https://nextjs.org/) - Framework Next js.
