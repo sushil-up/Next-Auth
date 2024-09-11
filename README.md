@@ -11,9 +11,16 @@ This project demonstrates how to implement authentication using NextAuth with OA
 
 ## Installation
 Install of framework and library
-```bash
+For Next js 
+```bash 
 npx create-next-app@latest
+```
+For Next Auth 
+```bash 
 npm install next-auth
+```
+For Mui 
+```bash
 npm install @mui/material @emotion/react @emotion/styled
 npm install @mui/material @mui/styled-engine-sc styled-components
 npm install @fontsource/roboto
