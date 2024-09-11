@@ -5,7 +5,9 @@ This project demonstrates how to implement authentication using NextAuth with OA
 
 
 ## Build with
-
+* [Next js](https://nextjs.org/) - Framework Next js.
+* [Next Auth](https://next-auth.js.org/) - Authentication Library.
+* [MUI](https://mui.com/) - UI Library.
 
 ## Installation
 
