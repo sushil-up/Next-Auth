@@ -3,6 +3,10 @@
 
 This project demonstrates how to implement authentication using NextAuth with OAuth providers. For the OAuth integration, we are using Google, Twitter, and GitHub providers to facilitate secure and convenient user sign-ins.
 
+## About NextAuth js
+NextAuth.js is an easy to implement, full-stack (client/server) open source authentication library originally designed for Next.js and Serverless. Our goal is to support even more frameworks in the future.
+
+Go to next-auth.js.org for more information and documentation.
 
 ## Build with
 * [Next js](https://nextjs.org/) - Framework Next js.
@@ -35,30 +39,9 @@ Install my-project with npm
 ```
 
 
+
+
+
     
-## API Reference
 
-#### Get all items
-
-```http
-  GET /api/items
-```
-
-| Parameter | Type     | Description                |
-| :-------- | :------- | :------------------------- |
-| `api_key` | `string` | **Required**. Your API key |
-
-#### Get item
-
-```http
-  GET /api/items/${id}
-```
-
-| Parameter | Type     | Description                       |
-| :-------- | :------- | :-------------------------------- |
-| `id`      | `string` | **Required**. Id of item to fetch |
-
-#### add(num1, num2)
-
-Takes two numbers and returns the sum.
 
