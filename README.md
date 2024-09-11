@@ -10,6 +10,15 @@ This project demonstrates how to implement authentication using NextAuth with OA
 * [MUI](https://mui.com/) - UI Library.
 
 ## Installation
+Install of framework and library
+```bash
+npx create-next-app@latest
+npm install next-auth
+npm install @mui/material @emotion/react @emotion/styled
+npm install @mui/material @mui/styled-engine-sc styled-components
+npm install @fontsource/roboto
+npm install @mui/icons-material
+```
 
 Install my-project with npm
 
