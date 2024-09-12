@@ -46,3 +46,4 @@ When setting up OAuth, in the developer admin page for each of your OAuth servic
  
 A list of configured providers and their callback URLs is available from the endpoint `api/auth/providers`. 
 You can find more information at [Next Auth Providers](https://next-auth.js.org/v3/configuration/providers)
+
