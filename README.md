@@ -40,3 +40,4 @@ Navigate to your project directory and install the necessary npm packages:
 The primary goal of this project is to authenticate users and grant access to pages that require user verification. By integrating NextAuth.js with multiple OAuth providers, this project ensures a secure and user-friendly sign-in process.
 
 ### Configure Authentication Providers
+When setting up OAuth, in the developer admin page for each of your OAuth services, you should configure the callback URL to use a callback path of `{server}/api/auth/callback/{provider}`.
