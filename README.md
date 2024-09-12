@@ -31,7 +31,7 @@ npm install @fontsource/roboto
 npm install @mui/icons-material
 ```
 
-Install my-project with npm
+Navigate to your project directory and install the necessary npm packages:
 
 ```bash
   npm install 
