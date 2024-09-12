@@ -39,7 +39,7 @@ Navigate to your project directory and install the necessary npm packages:
 ```
 
 ## Scope of the Project 
-To authenticate the user and give the access of the pages that is link with user authentication 
+To verify the user's identity and grant access to pages linked with user authentication.
 
 
 
