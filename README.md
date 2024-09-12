@@ -1,4 +1,4 @@
-# NextAuth Integration With Next js 
+# NextAuth Integration In Next js 
 
 This project showcases how to implement authentication using NextAuth with various OAuth providers. Specifically, it utilizes Google, Twitter, and GitHub for secure and convenient user sign-ins.
 
@@ -39,8 +39,6 @@ Navigate to your project directory and install the necessary npm packages:
 
 ## Scope of the Project 
 To verify the user's identity and grant access to pages linked with user authentication.
-
-
 
     
 
