@@ -1,5 +1,5 @@
 # Integrating NextAuth Providers in a Next.js Application
-This project demonstrates how to implement authentication in a Next.js application using NextAuth. It integrates multiple OAuth providers including Google, Twitter, and GitHub to enable secure and convenient user sign-ins.
+This guide illustrates how to implement authentication in a Next.js application using NextAuth.js. The integration covers multiple OAuth providers including Google, Twitter, and GitHub to offer secure and streamlined user sign-ins.
 
 ## About NextAuth js
 NextAuth.js is a powerful, open-source authentication library designed for seamless integration with Next.js and Serverless frameworks. It offers easy-to-implement authentication solutions for full-stack applications and aims to expand support for additional frameworks in the future.
@@ -36,5 +36,7 @@ Navigate to your project directory and install the necessary npm packages:
   cd my-project
 ```
 
-## Scope of the Project 
-The objective of this project is to verify user identity and provide access to pages that require user authentication.
+## Project Scope
+The primary goal of this project is to authenticate users and grant access to pages that require user verification. By integrating NextAuth.js with multiple OAuth providers, this project ensures a secure and user-friendly sign-in process.
+
+### Configure Authentication Providers
