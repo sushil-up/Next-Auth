@@ -1,4 +1,3 @@
-
 # NextAuth Integration With Next js 
 
 This project showcases how to implement authentication using NextAuth with various OAuth providers. Specifically, it utilizes Google, Twitter, and GitHub for secure and convenient user sign-ins.
