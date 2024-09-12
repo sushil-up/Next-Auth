@@ -41,3 +41,8 @@ The primary goal of this project is to authenticate users and grant access to pa
 
 ### Configure Authentication Providers
 When setting up OAuth, in the developer admin page for each of your OAuth services, you should configure the callback URL to use a callback path of `{server}/api/auth/callback/{provider}`.
+
+ e.g. For Google OAuth you would use: `http://localhost:3000/api/auth/callback/google`.
+ 
+A list of configured providers and their callback URLs is available from the endpoint `api/auth/providers`. 
+You can find more information at [Next Auth Providers](https://next-auth.js.org/v3/configuration/providers)
