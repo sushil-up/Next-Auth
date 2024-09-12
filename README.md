@@ -1,5 +1,5 @@
 
-# NextAuth Integration
+# NextAuth Integration With Next js 
 
 This project showcases how to implement authentication using NextAuth with various OAuth providers. Specifically, it utilizes Google, Twitter, and GitHub for secure and convenient user sign-ins.
 
@@ -11,8 +11,8 @@ For more detailed information and documentation, visit the [NextAuth.js website]
 * [Next js](https://nextjs.org/) - A React framework for server-side rendering and static site generation..
 * [NextAuth.js](https://next-auth.js.org/) - An authentication library for Next.js.
 * [MUI](https://mui.com/) - A comprehensive UI library.
-Installation
 
+##Installation
 ## To set up this project, follow these steps:
 Install of framework and library
 For Next js 
@@ -38,7 +38,8 @@ Navigate to your project directory and install the necessary npm packages:
   cd my-project
 ```
 
-
+## Scope of the Project 
+To authenticate the user and give the access of the pages that is link with user authentication 
 
 
 
