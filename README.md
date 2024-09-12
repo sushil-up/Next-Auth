@@ -39,6 +39,3 @@ Navigate to your project directory and install the necessary npm packages:
 
 ## Scope of the Project 
 The objective of this project is to verify user identity and provide access to pages that require user authentication.
-    
-
-
