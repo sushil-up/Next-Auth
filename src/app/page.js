@@ -14,7 +14,7 @@ export default function Home() {
           </Typography>
           <Typography variant="body1" paragraph>
             Your gateway to a seamless, secure, and user-friendly authentication
-            experience. Get started with ease and explore our app's powerful
+            experience. Get started with ease and explore our app powerful
             features.
           </Typography>
 
@@ -33,7 +33,7 @@ export default function Home() {
             </Typography>
             <Typography variant="body1" paragraph>
               Welcome! Start your journey with NextAuth as we guide you through
-              our app's intuitive login process and powerful features.
+              our app intuitive login process and powerful features.
             </Typography>
 
             <Typography variant="h6" sx={{ mt: 2 }}>

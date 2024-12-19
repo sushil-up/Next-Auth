@@ -92,7 +92,6 @@ const Login = () => {
               required
             />
             <Typography variant="body2" color="error" gutterBottom>
-              {" "}
               {errors?.password?.message}
             </Typography>
           </FormControl>
