@@ -109,9 +109,8 @@ const Login = () => {
         <div className="mt-5 ml-1">
           {error}
           <Typography variant="body2" sx={{ alignSelf: "center" }}>
-            Dont have an account?{" "}
-            <Link href="/sign-up" className="mr-2">
-              Sign up
+            <Link href="" className="mr-2">
+             
             </Link>
           </Typography>
         </div>
