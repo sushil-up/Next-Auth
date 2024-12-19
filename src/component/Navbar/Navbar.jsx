@@ -52,9 +52,6 @@ function ResponsiveAppBar() {
               onClick={handleCloseNavMenu}
               sx={{ my: 2, color: "white" }}
             >
-              <Link href={routesUrl.about}>
-                <Typography>About</Typography>
-              </Link>
             </IconButton>
             {session ? (
               <>
