@@ -1,51 +1,55 @@
 "use client";
+import { FeatureCard, features } from "@/component/Discription";
+import { Box, Container, Grid, Typography } from "@mui/material";
 import * as React from "react";
-import Container from "@mui/material/Container";
-import Typography from "@mui/material/Typography";
-import Box from "@mui/material/Box";
 
 export default function Home() {
   return (
     <>
       <Container>
-        <Box sx={{ textAlign: "center", mt: 4 }}>
+        <Box sx={{ textAlign: "center", color: "white", mt: 4 }}>
           <Typography variant="h3" gutterBottom>
-            Welcome to NextAuth
+            <div>
+              <img
+                src="auth.jpg"
+                className="absolute left-0 top-12 -z-50  object-cover"
+                alt="Background"
+              />
+            </div>
+            <Typography variant="h3" gutterBottom sx={{ fontWeight: "bold", mb: 2 }}>
+              NextAuth
+            </Typography>
           </Typography>
-          <Typography variant="body1" paragraph>
+          <Typography variant="body1" paragraph className="tracking-widest">
             Your gateway to a seamless, secure, and user-friendly authentication
-            experience. Get started with ease and explore our app powerful
+            experience. Get started with ease and explore our app's powerful
             features.
           </Typography>
-
-          <Box sx={{ mt: 4, textAlign: "left" }}>
-            <Typography variant="h6" sx={{ mt: 2 }}>
-              Informative:
-            </Typography>
-            <Typography variant="body1" paragraph>
-              NextAuth is a robust authentication system designed to provide
-              secure, user-friendly access. Explore its features and learn how
-              to get started with confidence.
-            </Typography>
-
-            <Typography variant="h6" sx={{ mt: 2 }}>
-              Friendly and Welcoming:
-            </Typography>
-            <Typography variant="body1" paragraph>
-              Welcome! Start your journey with NextAuth as we guide you through
-              our app intuitive login process and powerful features.
-            </Typography>
-
-            <Typography variant="h6" sx={{ mt: 2 }}>
-              Feature-Oriented:
-            </Typography>
-            <Typography variant="body1" paragraph>
-              Experience hassle-free, secure authentication with NextAuth. Dive
-              into the app and discover how quickly you can get started.
-            </Typography>
-          </Box>
+          <Grid container spacing={4} sx={{ mt: 3 }}>
+            {features.map((item, index) => (
+              <Grid item xs={12} sm={6} md={4} key={index}>
+                <Box
+                  sx={{
+                    backgroundColor: "rgb(0 0 0 / 50%)",
+                    padding: 3,
+                    borderRadius: 2,
+                    boxShadow: 4,
+                    textAlign: "center",
+                    transition:
+                      "transform 0.3s ease, background-color 0.3s ease",
+                  }}
+                >
+                  <Typography variant="h6" sx={{ fontWeight: "bold", mb: 1 }}>
+                    {item.title}
+                  </Typography>
+                  <Typography variant="body2">{item.description}</Typography>
+                </Box>
+              </Grid>
+            ))}
+          </Grid>
         </Box>
       </Container>
     </>
   );
 }
+
