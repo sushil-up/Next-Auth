@@ -22,7 +22,7 @@ export default function Home() {
           </Typography>
           <Typography variant="body1" paragraph className="tracking-widest">
             Your gateway to a seamless, secure, and user-friendly authentication
-            experience. Get started with ease and explore our app's powerful
+            experience. Get started with ease and explore our app powerful
             features.
           </Typography>
           <Grid container spacing={4} sx={{ mt: 3 }}>
