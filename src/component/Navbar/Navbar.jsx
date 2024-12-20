@@ -36,13 +36,13 @@ function ResponsiveAppBar() {
   };
 
   return (
-    <AppBar position="static" sx={{backgroundColor:"#6e767e"}} className="bg-transparent shadow-none">
+    <AppBar position="static" sx={{backgroundColor:"#ffffff"}} className="bg-transparent shadow-none">
       <Container maxWidth="xl">
         <Toolbar disableGutters>
           <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
             <IconButton
               onClick={handleCloseNavMenu}
-              sx={{ my: 2, color: "white" }}
+              sx={{ my: 2, color: "black" }}
             >
               <Link href={routesUrl.home}>
                 <Typography>Home</Typography>
@@ -50,14 +50,14 @@ function ResponsiveAppBar() {
             </IconButton>
             <IconButton
               onClick={handleCloseNavMenu}
-              sx={{ my: 2, color: "white" }}
+              sx={{ my: 2, color: "black" }}
             >
             </IconButton>
             {session ? (
               <>
                 <IconButton
                   onClick={handleCloseNavMenu}
-                  sx={{ my: 2, color: "white" }}
+                  sx={{ my: 2, color: "black" }}
                 >
                   <Link href={routesUrl.products}>
                     <Typography>Products</Typography>
@@ -65,7 +65,7 @@ function ResponsiveAppBar() {
                 </IconButton>
                 <IconButton
                   onClick={handleCloseNavMenu}
-                  sx={{ my: 2, color: "white" }}
+                  sx={{ my: 2, color: "black" }}
                 >
                   <Link href={routesUrl.user}>
                     <Typography>User</Typography>
@@ -76,7 +76,7 @@ function ResponsiveAppBar() {
               <></>
             )}
           </Box>
-          <Typography className="mr-2" color="white">
+          <Typography className="mr-2" color="black">
             {session?.user.email || session?.user?.id}
           </Typography>
           <Box sx={{ flexGrow: 0 }}>
@@ -87,7 +87,7 @@ function ResponsiveAppBar() {
                 </>
               ) : (
                 <Link href={routesUrl.signIn}>
-                  <Typography color="white">Sign In</Typography>
+                  <Typography color="black">Sign In</Typography>
                 </Link>
               )}
             </Tooltip>
